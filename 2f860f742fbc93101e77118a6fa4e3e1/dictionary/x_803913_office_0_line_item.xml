@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7a60e2245e204c8594ee0c5df16f4220" label="Request Line Item" name="x_803913_office_0_line_item" type="collection">
+        <element display="true" label="Menu Item" mandatory="true" name="menu_item" reference="x_803913_office_0_menu_item" type="reference"/>
+        <element label="Catering Request" mandatory="true" name="request" reference="x_803913_office_0_request" type="reference"/>
+        <element default="1" label="Quantity" mandatory="true" name="quantity" type="integer"/>
+        <element label="Line Total" name="line_total" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <index name="index">
+            <element name="menu_item"/>
+        </index>
+        <index name="index2">
+            <element name="request"/>
+        </index>
+    </element>
+</database>

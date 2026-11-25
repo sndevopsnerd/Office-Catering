@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Catering Request Details" section_id="2d3f10802ae1457a8f6425038e4be1e3" sys_domain="global" table="x_803913_office_0_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>4aad971359f941f09b5828decca1f08d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>party_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>51183a239472406e859d62fa4732a0b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>39e7e9176ec34608bf24d545916507dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>51a336035bc24e2db7371052c3f84674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>5a7774fd325e45b298078b88d00b47c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>f84ca3cc414143c1b4a0ef5ebf6bdd9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>party_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>3f31d0563a9a4e42ab8846afe3e2b91d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>guest_count</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>780ea950d4ce4d7f9971e131c3d3285b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>9e31343ed89d4ae5b1cd23d276106808</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>5826f4e8db744049839b464feb4ad36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>630fc98ac31642e3b12fbd8f81a78f98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>special_instructions</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>59d37ec0079a45348b55fb26b96a5d29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cost</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>17da2853fb384551915f368a29bdd7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_id>9f9b251e36164068b53b19dda04b6548</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Catering Request Details</caption>
+            <header>false</header>
+            <name>x_803913_office_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d3f10802ae1457a8f6425038e4be1e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_803913_office_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Office Party Catering" source="x_803913_office_0">2f860f742fbc93101e77118a6fa4e3e1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Office Party Catering">2f860f742fbc93101e77118a6fa4e3e1</sys_scope>
+            <sys_update_name>sys_ui_section_2d3f10802ae1457a8f6425038e4be1e3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

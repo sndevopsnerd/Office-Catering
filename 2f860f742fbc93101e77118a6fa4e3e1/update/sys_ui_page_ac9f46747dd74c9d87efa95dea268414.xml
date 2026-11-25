@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_803913_office_0_catering_portal.do</endpoint>
+        <html><![CDATA[
+<!-- @fluent-import-html WARNING: This file was imported from the output of a static build. Modifications of any kind are likely to result in unintended behavior. In most cases, you should edit the source file of the HTML imported below. If you are absolutely certain you want to take control of this HTML, you can remove this comment to prevent the SDK from regenerating it. However, you will then be responsible for the management of this HTML in your Fluent file. -->
+<html class="-polaris">
+  <head>
+    <title>Catering Portal</title>
+    <!-- @sdk:now-ux-globals -->
+    <!-- Resolved from sdk:now-ux-globals tag at NowSDK build time to support earlier Glide releases -->
+    <script>window.NOW = {};
+window.NOW.user = {};
+window.NOW.batch_glide_ajax_requests = false;
+window.NOW.isUsingPolaris = true;
+window.NOW.exclude_dark_theme = "false";
+window.g_ck = "$[gs.getSession().getSessionToken() || gs.getSessionToken()]";</script>
+    <!-- Include ServiceNow's required scripts -->
+    <g:requires name="scripts/doctype/functions_bootstrap14.js"></g:requires>
+    <g:requires name="scripts/lib/prototype.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideURL.js"></g:requires>
+    <g:requires name="scripts/doctype/CustomEventManager.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideAjax.js"></g:requires>
+    <g:requires name="scripts/classes/GlideUser.js"></g:requires>
+    <g2:client_script type="user"></g2:client_script>
+    <link rel="preload" href="/uxasset/set-cache-buster/$[UxFrameworkScriptables.getFlushTimestamp()].js" as="script"></link>
+    <g:requires name="scripts/polaris_theme_refresh_observer.js"></g:requires>
+    <link data-source-id="glide-theme" id="polarisberg_theme_variables" rel="stylesheet" href="/$uxappimmutables.do?sysparm_request_type=ux_theme$[AMP]sysparm_app_sys_id=c86a62e2c7022010099a308dc7c26022$[AMP]uxpcb=$[sn_ui.PolarisUI.getThemeVariableCssCacheKey()]"></link>
+    <script type="module" src="/uxasset/externals/@devsnc/library-uxf/index.jsdbx"></script>
+    <script type="text/javascript">
+    (function () {
+    var testWorks = (function () {
+        try {
+        var result = Array.from(new Set([1, 2]));
+        return (
+            Array.isArray(result) $[AMP]$[AMP] result.length === 2 $[AMP]$[AMP] result[0] === 1
+        );
+        } catch (e) {
+        return false;
+        }
+    })();
+    if (testWorks) return;
+    var originalArrayFrom = Array.from;
+    function specArrayFrom(arrayLike, mapFn, thisArg) {
+        if (arrayLike == null)
+        throw new TypeError(
+            "Array.from requires an array-like or iterable object"
+        );
+        var C = this;
+        if (typeof C !== "function" || C === Window || C === Object) {
+        C = Array;
+        }
+        var mapping = typeof mapFn === "function";
+        var iterFn = arrayLike[Symbol.iterator];
+        if (typeof iterFn === "function") {
+        var result = [];
+        var i = 0;
+        var iterator = iterFn.call(arrayLike);
+        var step;
+        while (!(step = iterator.next()).done) {
+            result[i] = mapping
+            ? mapFn.call(thisArg, step.value, i)
+            : step.value;
+            i++;
+        }
+        result.length = i;
+        return result;
+        }
+        var items = Object(arrayLike);
+        var len = Math.min(
+        Math.max(Number(items.length) || 0, 0),
+        Number.MAX_SAFE_INTEGER
+        );
+        var result = new C(len);
+        for (var k = 0; k < len; k++) {
+        result[k] = mapping ? mapFn.call(thisArg, items[k], k) : items[k];
+        }
+        result.length = len;
+        return result;
+    }
+    Array.from = function (arrayLike, mapFn, thisArg) {
+        if (
+        arrayLike != null $[AMP]$[AMP]
+        typeof arrayLike[Symbol.iterator] === "function"
+        ) {
+        try {
+            return specArrayFrom.call(this, arrayLike, mapFn, thisArg);
+        } catch (e) {
+            console.error("Array.from failed with error:", e);
+            return originalArrayFrom.call(this, arrayLike, mapFn, thisArg);
+        }
+        }
+        return originalArrayFrom.call(this, arrayLike, mapFn, thisArg);
+    };
+    })();
+    if (window.Element $[AMP]$[AMP] Element.Methods) {
+    Element.Methods.remove = function (element) {
+        element = $(element);
+        if (element.parentNode) {
+        element.parentNode.removeChild(element);
+        }
+        return element;
+    };
+    Element.addMethods();
+    }</script>
+    <!-- @sdk:now-ux-globals -->
+    <script src="/uxasset/externals/x_803913_office_0/catering-portal.jsdbx?uxpcb=$[UxFrameworkScriptables.getFlushTimestamp()]" type="module"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>]]></html>
+        <name>catering_portal</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>ac9f46747dd74c9d87efa95dea268414</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catering_portal</sys_name>
+        <sys_package display_value="Office Party Catering" source="x_803913_office_0">2f860f742fbc93101e77118a6fa4e3e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office Party Catering">2f860f742fbc93101e77118a6fa4e3e1</sys_scope>
+        <sys_update_name>sys_ui_page_ac9f46747dd74c9d87efa95dea268414</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+    </sys_ui_page>
+    <sn_glider_source_artifact_m2m action="INSERT_OR_UPDATE">
+        <application_file display_value="catering_portal">ac9f46747dd74c9d87efa95dea268414</application_file>
+        <source_artifact display_value="x_803913_office_0_catering_portal.do - BYOUI Files">4a8a3f93b4fe48338e23a2f78ac4f0f6</source_artifact>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>eeaa9e3f528c4f9f85571259d65c7f61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+    </sn_glider_source_artifact_m2m>
+    <sn_glider_source_artifact action="INSERT_OR_UPDATE">
+        <name>x_803913_office_0_catering_portal.do - BYOUI Files</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>4a8a3f93b4fe48338e23a2f78ac4f0f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+    </sn_glider_source_artifact>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>933336</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>application/zip</content_type>
+        <file_name>x_803913_office_0_catering_portal.do - BYOUI Files.zip</file_name>
+        <hash>2a83802f2fa5a347e5adca8b90bd2d6de1d23438ce95ff9cbffeaa8eb30f996a</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>6117</size_bytes>
+        <size_compressed>3765</size_compressed>
+        <state/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>2aae1b6807b576658d0a25ab588c3221</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+        <table_name>sn_glider_source_artifact</table_name>
+        <table_sys_id>4a8a3f93b4fe48338e23a2f78ac4f0f6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length/>
+        <position>0</position>
+        <sys_attachment display_value="x_803913_office_0_catering_portal.do - BYOUI Files.zip" sys_id="2aae1b6807b576658d0a25ab588c3221">2aae1b6807b576658d0a25ab588c3221</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>1c15a94f3ae1ee0bfa07070eafbb2478</sys_id>
+    </sys_attachment_doc>
+</record_update>
