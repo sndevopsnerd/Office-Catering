@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="dda8871129cc4ef18a2f3fc457abfcc9" label="Vendor" name="x_803913_office_0_vendor" type="collection">
+        <element default="true" label="Active" name="active" type="boolean"/>
+        <element label="Email" name="email" type="email"/>
+        <element display="true" label="Vendor Name" mandatory="true" name="name" type="string"/>
+        <element label="Cuisine Type" name="cuisine_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="American" sequence="5" value="american"/>
+                <element inactive_on_update="false" label="Mexican" sequence="2" value="mexican"/>
+                <element inactive_on_update="false" label="Meditteranean" sequence="7" value="meditteranean"/>
+                <element inactive_on_update="false" label="Indian" sequence="4" value="indian"/>
+                <element inactive_on_update="false" label="Chinese" sequence="3" value="chinese"/>
+                <element inactive_on_update="false" label="Japanese" sequence="6" value="japanese"/>
+                <element inactive_on_update="false" label="Other" sequence="100" value="other"/>
+                <element inactive_on_update="false" label="Italian" sequence="1" value="italian"/>
+            </choice>
+        </element>
+        <element label="Phone Number" name="phone" type="string"/>
+    </element>
+</database>

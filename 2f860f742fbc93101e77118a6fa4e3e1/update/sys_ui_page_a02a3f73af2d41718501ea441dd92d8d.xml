@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_803913_office_0_catering_dashboard.do</endpoint>
+        <html><![CDATA[
+<!-- @fluent-import-html WARNING: This file was imported from the output of a static build. Modifications of any kind are likely to result in unintended behavior. In most cases, you should edit the source file of the HTML imported below. If you are absolutely certain you want to take control of this HTML, you can remove this comment to prevent the SDK from regenerating it. However, you will then be responsible for the management of this HTML in your Fluent file. -->
+<html class="-polaris">
+  <head>
+    <title>Office Party Catering</title>
+    <!-- @sdk:now-ux-globals -->
+    <!-- Resolved from sdk:now-ux-globals tag at NowSDK build time to support earlier Glide releases -->
+    <script>window.NOW = {};
+window.NOW.user = {};
+window.NOW.batch_glide_ajax_requests = false;
+window.NOW.isUsingPolaris = true;
+window.NOW.exclude_dark_theme = "false";
+window.g_ck = "$[gs.getSession().getSessionToken() || gs.getSessionToken()]";</script>
+    <!-- Include ServiceNow's required scripts -->
+    <g:requires name="scripts/doctype/functions_bootstrap14.js"></g:requires>
+    <g:requires name="scripts/lib/prototype.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideURL.js"></g:requires>
+    <g:requires name="scripts/doctype/CustomEventManager.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideAjax.js"></g:requires>
+    <g:requires name="scripts/classes/GlideUser.js"></g:requires>
+    <g2:client_script type="user"></g2:client_script>
+    <link rel="preload" href="/uxasset/set-cache-buster/$[UxFrameworkScriptables.getFlushTimestamp()].js" as="script"></link>
+    <g:requires name="scripts/polaris_theme_refresh_observer.js"></g:requires>
+    <link data-source-id="glide-theme" id="polarisberg_theme_variables" rel="stylesheet" href="/$uxappimmutables.do?sysparm_request_type=ux_theme$[AMP]sysparm_app_sys_id=c86a62e2c7022010099a308dc7c26022$[AMP]uxpcb=$[sn_ui.PolarisUI.getThemeVariableCssCacheKey()]"></link>
+    <script type="module" src="/uxasset/externals/@devsnc/library-uxf/index.jsdbx"></script>
+    <script type="text/javascript">
+    (function () {
+    var testWorks = (function () {
+        try {
+        var result = Array.from(new Set([1, 2]));
+        return (
+            Array.isArray(result) $[AMP]$[AMP] result.length === 2 $[AMP]$[AMP] result[0] === 1
+        );
+        } catch (e) {
+        return false;
+        }
+    })();
+    if (testWorks) return;
+    var originalArrayFrom = Array.from;
+    function specArrayFrom(arrayLike, mapFn, thisArg) {
+        if (arrayLike == null)
+        throw new TypeError(
+            "Array.from requires an array-like or iterable object"
+        );
+        var C = this;
+        if (typeof C !== "function" || C === Window || C === Object) {
+        C = Array;
+        }
+        var mapping = typeof mapFn === "function";
+        var iterFn = arrayLike[Symbol.iterator];
+        if (typeof iterFn === "function") {
+        var result = [];
+        var i = 0;
+        var iterator = iterFn.call(arrayLike);
+        var step;
+        while (!(step = iterator.next()).done) {
+            result[i] = mapping
+            ? mapFn.call(thisArg, step.value, i)
+            : step.value;
+            i++;
+        }
+        result.length = i;
+        return result;
+        }
+        var items = Object(arrayLike);
+        var len = Math.min(
+        Math.max(Number(items.length) || 0, 0),
+        Number.MAX_SAFE_INTEGER
+        );
+        var result = new C(len);
+        for (var k = 0; k < len; k++) {
+        result[k] = mapping ? mapFn.call(thisArg, items[k], k) : items[k];
+        }
+        result.length = len;
+        return result;
+    }
+    Array.from = function (arrayLike, mapFn, thisArg) {
+        if (
+        arrayLike != null $[AMP]$[AMP]
+        typeof arrayLike[Symbol.iterator] === "function"
+        ) {
+        try {
+            return specArrayFrom.call(this, arrayLike, mapFn, thisArg);
+        } catch (e) {
+            console.error("Array.from failed with error:", e);
+            return originalArrayFrom.call(this, arrayLike, mapFn, thisArg);
+        }
+        }
+        return originalArrayFrom.call(this, arrayLike, mapFn, thisArg);
+    };
+    })();
+    if (window.Element $[AMP]$[AMP] Element.Methods) {
+    Element.Methods.remove = function (element) {
+        element = $(element);
+        if (element.parentNode) {
+        element.parentNode.removeChild(element);
+        }
+        return element;
+    };
+    Element.addMethods();
+    }</script>
+    <!-- @sdk:now-ux-globals -->
+    <script src="/uxasset/externals/x_803913_office_0/catering-dashboard.jsdbx?uxpcb=$[UxFrameworkScriptables.getFlushTimestamp()]" type="module"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>]]></html>
+        <name>catering_dashboard</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>a02a3f73af2d41718501ea441dd92d8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catering_dashboard</sys_name>
+        <sys_package display_value="Office Party Catering" source="x_803913_office_0">2f860f742fbc93101e77118a6fa4e3e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office Party Catering">2f860f742fbc93101e77118a6fa4e3e1</sys_scope>
+        <sys_update_name>sys_ui_page_a02a3f73af2d41718501ea441dd92d8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+    </sys_ui_page>
+    <sn_glider_source_artifact_m2m action="INSERT_OR_UPDATE">
+        <application_file display_value="catering_dashboard">a02a3f73af2d41718501ea441dd92d8d</application_file>
+        <source_artifact display_value="x_803913_office_0_catering_dashboard.do - BYOUI Files">51f500ed2e3c4b17a55f9c430c57686b</source_artifact>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>43610c56ebc74195bdabf06bd9c2066a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+    </sn_glider_source_artifact_m2m>
+    <sn_glider_source_artifact action="INSERT_OR_UPDATE">
+        <name>x_803913_office_0_catering_dashboard.do - BYOUI Files</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>51f500ed2e3c4b17a55f9c430c57686b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+    </sn_glider_source_artifact>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>933336</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>application/zip</content_type>
+        <file_name>x_803913_office_0_catering_dashboard.do - BYOUI Files.zip</file_name>
+        <hash>ef5c2aaacb300032618d9805a976dc907270c12fd7ac41ae4a9d505c8fc1b126</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>549</size_bytes>
+        <size_compressed>674</size_compressed>
+        <state/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>f27feaf1ae58b03cbfadf6dc5ae43662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+        <table_name>sn_glider_source_artifact</table_name>
+        <table_sys_id>51f500ed2e3c4b17a55f9c430c57686b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>UEsDBBQAAAAIAAAAIQSw4IKe0gAAAD0BAAAiAAAAc3JjL2NsaWVudC9jYXRlcmluZy1kYXNoYm9hcmQuaHRtbG2QsW7DMAxE93yFIHRoB8d7YblDgawt0HYqOlASYwuRIkGkG/vvo1jOlu1IviN47EYOXhgPREo2KXrIjmS/E6IbEexNFMmOPfYfx6MzKD4h8yLegTG789C1dVhBsqfXc7w009wMPmrw1Hftg+ZGm+wSr1oIykZJs21tLNCoI2S7Z5rfpjkZrZ5+f+ZDhoCXmE9fqxe0R9oPyAc/0fjtAhJDSM8vf3Jby0tCJUO0k8fau120mteU7T1mp6NdtsOs+xfOKpljZFn4Ule4MsVUvtbvrlBLAwQUAAAACAAAACEEiHUG4pwAAADoAAAAIQAAAHNyYy9jbGllbnQvY2F0ZXJpbmctZGFzaGJvYXJkLnRzeGWOQQrCMBBF9znFmFWysD1AiwutCxci9AYxmdZAk8g4FUS8u8miUnD3mffgjQ/3RAw9GsswUAogqWzZiDXqLuc13boUajt5jEUUwxwt+xThYBjJx7Ezj9s1GXJKw1sAEPJMEVrnn7vFgZ/U1uXeiI8QS6yyucPYp8TKJTuHXKpG5OOEZe5fJ6ckZSr1RleE0SGpHGr/PoB6J3QjvlBLAQIUABQAAAAIAAAAIQSw4IKe0gAAAD0BAAAiAAAAAAAAAAAAAAAAAAAAAABzcmMvY2xpZW50L2NhdGVyaW5nLWRhc2hib2FyZC5odG1sUEsBAhQAFAAAAAgAAAAhBIh1BuKcAAAA6AAAACEAAAAAAAAAAAAAAAAAEgEAAHNyYy9jbGllbnQvY2F0ZXJpbmctZGFzaGJvYXJkLnRzeFBLBQYAAAAAAgACAJ8AAADtAQAAAAA=</data>
+        <length/>
+        <position>0</position>
+        <sys_attachment display_value="x_803913_office_0_catering_dashboard.do - BYOUI Files.zip" sys_id="f27feaf1ae58b03cbfadf6dc5ae43662">f27feaf1ae58b03cbfadf6dc5ae43662</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+        <sys_id>019e936aeda2e51ecaeae95a9a420f35</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a52888a008304da8807ccfb6ada03291" sys_domain="global" table="x_803913_office_0_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>917cee55df734489bff17afd58fdbd51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_803913_office_0_request" name="x_803913_office_0_request" sys_domain="global" view="Default view">a52888a008304da8807ccfb6ada03291</sys_ui_form>
+            <sys_ui_section caption="Catering Request Details" display_value="Catering Request Details" name="x_803913_office_0_request" sys_domain="global" view="Default view">2d3f10802ae1457a8f6425038e4be1e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_803913_office_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-25 15:21:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a52888a008304da8807ccfb6ada03291</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_803913_office_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Office Party Catering" source="x_803913_office_0">2f860f742fbc93101e77118a6fa4e3e1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Office Party Catering">2f860f742fbc93101e77118a6fa4e3e1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a52888a008304da8807ccfb6ada03291</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-25 15:21:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

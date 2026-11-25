@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9673b7be673f43caa1c64dad550ab9a2" label="Catering Request" name="x_803913_office_0_request" type="collection">
+        <element default="draft" label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="2" value="submitted"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="Fulfilled" sequence="5" value="fulfilled"/>
+            </choice>
+        </element>
+        <element label="Preferred Vendor" name="vendor" reference="x_803913_office_0_vendor" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" name="number" type="string"/>
+        <element display="true" label="Party Name" mandatory="true" name="party_name" type="string"/>
+        <element label="Special Instructions" max_length="2000" name="special_instructions" type="multi_two_lines"/>
+        <element label="Total Cost" name="total_cost" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <element label="Number of Guests" mandatory="true" name="guest_count" type="integer"/>
+        <element label="Budget" name="budget" type="decimal"/>
+        <element label="Location" mandatory="true" name="location" type="string"/>
+        <element label="Requested By" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Party Date" mandatory="true" name="party_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+        <index name="index2">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

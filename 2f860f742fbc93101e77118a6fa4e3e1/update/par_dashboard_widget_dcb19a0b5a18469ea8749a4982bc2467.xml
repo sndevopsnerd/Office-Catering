@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">fcc7b75328144f9888becd825bc2e536</canvas>
+        <component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component>
+        <component_props>{"dataSources":[{"label":"Catering Request","sourceType":"table","tableOrViewName":"x_803913_office_0_request","filterQuery":"","id":"ds_status"}],"metrics":[{"dataSource":"ds_status","id":"metric_status","aggregateFunction":"COUNT","axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"ds_status","groupByField":"status"}],"maxNumberOfGroups":6,"showOthers":false}],"headerTitle":"Requests by Status"}</component_props>
+        <h>14</h>
+        <name/>
+        <required_translations/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 16:19:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcb19a0b5a18469ea8749a4982bc2467</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Office Party Catering" source="x_803913_office_0">2f860f742fbc93101e77118a6fa4e3e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office Party Catering">2f860f742fbc93101e77118a6fa4e3e1</sys_scope>
+        <sys_update_name>par_dashboard_widget_dcb19a0b5a18469ea8749a4982bc2467</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 16:19:14</sys_updated_on>
+        <visualization/>
+        <w>18</w>
+        <widget_props/>
+        <x>12</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
