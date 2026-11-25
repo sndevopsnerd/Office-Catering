@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>F1hPE8nVJT6w9TUpD2menqJmqEyK63Mx+m85waUNsqo=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_803913_office_0.catering_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>catering_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 16:19:17</sys_created_on>
+        <sys_id>289b3bad3dd2463b9ccde32e9787c468</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803913_office_0.catering_user</sys_name>
+        <sys_package display_value="Office Party Catering" source="x_803913_office_0">2f860f742fbc93101e77118a6fa4e3e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office Party Catering">2f860f742fbc93101e77118a6fa4e3e1</sys_scope>
+        <sys_update_name>sys_user_role_289b3bad3dd2463b9ccde32e9787c468</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 16:19:17</sys_updated_on>
+    </sys_user_role>
+</record_update>

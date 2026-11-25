@@ -7,10 +7,11 @@
             <choice>
                 <element inactive_on_update="false" label="American" sequence="5" value="american"/>
                 <element inactive_on_update="false" label="Mexican" sequence="2" value="mexican"/>
+                <element inactive_on_update="false" label="Meditteranean" sequence="7" value="meditteranean"/>
                 <element inactive_on_update="false" label="Indian" sequence="4" value="indian"/>
                 <element inactive_on_update="false" label="Chinese" sequence="3" value="chinese"/>
                 <element inactive_on_update="false" label="Japanese" sequence="6" value="japanese"/>
-                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+                <element inactive_on_update="false" label="Other" sequence="100" value="other"/>
                 <element inactive_on_update="false" label="Italian" sequence="1" value="italian"/>
             </choice>
         </element>

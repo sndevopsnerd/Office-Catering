@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_803913_office_0.catering_user" name="x_803913_office_0.catering_user">289b3bad3dd2463b9ccde32e9787c468</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 16:19:18</sys_created_on>
+        <sys_id>ee8cbf863d2f4a79aa1752ef077d3725</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_803913_office_0.catering_user</sys_name>
+        <sys_package display_value="Office Party Catering" source="x_803913_office_0">2f860f742fbc93101e77118a6fa4e3e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office Party Catering">2f860f742fbc93101e77118a6fa4e3e1</sys_scope>
+        <sys_update_name>sys_user_role_contains_ee8cbf863d2f4a79aa1752ef077d3725</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 16:19:18</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
